@@ -1,0 +1,74 @@
+body {
+  background-image: url(/img/rain.gif);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  margin: 0;
+}
+
+table,
+th,
+td:hover {
+  border: 1px solid white;
+  color: white;
+  opacity: 0.8;
+}
+
+th,
+td:hover {
+  border: 1px solid white;
+  color: black;
+}
+
+img:hover {
+  color: gray;
+}
+
+.heading {
+  margin: auto;
+  padding: 5px;
+}
+
+h1 {
+  text-align: center;
+  color: gray;
+  opacity: 0.75;
+  font-size: 5rem;
+}
+
+h1:hover {
+  text-align: center;
+  color: white;
+  opacity: 0.75;
+  font-size: 5rem;
+}
+
+.gifs {
+  width: 70%;
+  height: auto;
+  opacity: .8;
+}
+
+* {
+  font-family: "Roboto Mono", monospace;
+}
+
+.table-music {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+td {
+  text-align: center;
+  font-size: 2rem;
+  
+}
+
+th:hover {
+  color: white;
+}
+
+th {
+    font-size: 2rem;
+}
